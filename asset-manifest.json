@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/acnh-turnip-trip-calc/static/css/main.75785f5c.chunk.css",
-    "main.js": "/acnh-turnip-trip-calc/static/js/main.ab9901bc.chunk.js",
-    "main.js.map": "/acnh-turnip-trip-calc/static/js/main.ab9901bc.chunk.js.map",
+    "main.js": "/acnh-turnip-trip-calc/static/js/main.45791b04.chunk.js",
+    "main.js.map": "/acnh-turnip-trip-calc/static/js/main.45791b04.chunk.js.map",
     "runtime-main.js": "/acnh-turnip-trip-calc/static/js/runtime-main.a698f9d6.js",
     "runtime-main.js.map": "/acnh-turnip-trip-calc/static/js/runtime-main.a698f9d6.js.map",
     "static/css/2.1d63ea88.chunk.css": "/acnh-turnip-trip-calc/static/css/2.1d63ea88.chunk.css",
     "static/js/2.55d2a60b.chunk.js": "/acnh-turnip-trip-calc/static/js/2.55d2a60b.chunk.js",
     "static/js/2.55d2a60b.chunk.js.map": "/acnh-turnip-trip-calc/static/js/2.55d2a60b.chunk.js.map",
     "index.html": "/acnh-turnip-trip-calc/index.html",
-    "precache-manifest.7f518f24bc7cb320c71ceab667d2367a.js": "/acnh-turnip-trip-calc/precache-manifest.7f518f24bc7cb320c71ceab667d2367a.js",
+    "precache-manifest.aeb2f361a05eae6ab297b8ad546254f9.js": "/acnh-turnip-trip-calc/precache-manifest.aeb2f361a05eae6ab297b8ad546254f9.js",
     "service-worker.js": "/acnh-turnip-trip-calc/service-worker.js",
     "static/css/2.1d63ea88.chunk.css.map": "/acnh-turnip-trip-calc/static/css/2.1d63ea88.chunk.css.map",
     "static/css/main.75785f5c.chunk.css.map": "/acnh-turnip-trip-calc/static/css/main.75785f5c.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.1d63ea88.chunk.css",
     "static/js/2.55d2a60b.chunk.js",
     "static/css/main.75785f5c.chunk.css",
-    "static/js/main.ab9901bc.chunk.js"
+    "static/js/main.45791b04.chunk.js"
   ]
 }

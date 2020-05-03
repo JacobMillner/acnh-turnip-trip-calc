@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0c85f6a6b07b439276eec0d29a0c35af",
+    "revision": "d43e3ca4f31120bae7ccb6348621109b",
     "url": "/acnh-turnip-trip-calc/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/acnh-turnip-trip-calc/static/css/2.1d63ea88.chunk.css"
   },
   {
-    "revision": "eefe171ed2e2fd64c263",
+    "revision": "06281bfed502dc57ef71",
     "url": "/acnh-turnip-trip-calc/static/css/main.75785f5c.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/acnh-turnip-trip-calc/static/js/2.55d2a60b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eefe171ed2e2fd64c263",
-    "url": "/acnh-turnip-trip-calc/static/js/main.ab9901bc.chunk.js"
+    "revision": "06281bfed502dc57ef71",
+    "url": "/acnh-turnip-trip-calc/static/js/main.45791b04.chunk.js"
   },
   {
     "revision": "22678a15b599b96b62de",
