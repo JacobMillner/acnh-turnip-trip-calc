@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/static/css/main.fc298b6e.chunk.css",
-    "main.js": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/static/js/main.97042bf3.chunk.js",
-    "main.js.map": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/static/js/main.97042bf3.chunk.js.map",
-    "runtime-main.js": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/static/js/runtime-main.8be6fa04.js",
-    "runtime-main.js.map": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/static/js/runtime-main.8be6fa04.js.map",
-    "static/css/2.1d63ea88.chunk.css": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/static/css/2.1d63ea88.chunk.css",
-    "static/js/2.60e7778d.chunk.js": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/static/js/2.60e7778d.chunk.js",
-    "static/js/2.60e7778d.chunk.js.map": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/static/js/2.60e7778d.chunk.js.map",
-    "index.html": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/index.html",
-    "precache-manifest.821187c6e3f6815c4c522da06b3dd0c9.js": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/precache-manifest.821187c6e3f6815c4c522da06b3dd0c9.js",
-    "service-worker.js": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/service-worker.js",
-    "static/css/2.1d63ea88.chunk.css.map": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/static/css/2.1d63ea88.chunk.css.map",
-    "static/css/main.fc298b6e.chunk.css.map": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/static/css/main.fc298b6e.chunk.css.map",
-    "static/js/2.60e7778d.chunk.js.LICENSE.txt": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/static/js/2.60e7778d.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/static/media/logo.5d5d9eef.svg"
+    "main.css": "/acnh-turnip-trip-calc/static/css/main.fc298b6e.chunk.css",
+    "main.js": "/acnh-turnip-trip-calc/static/js/main.7ff6c9a1.chunk.js",
+    "main.js.map": "/acnh-turnip-trip-calc/static/js/main.7ff6c9a1.chunk.js.map",
+    "runtime-main.js": "/acnh-turnip-trip-calc/static/js/runtime-main.a698f9d6.js",
+    "runtime-main.js.map": "/acnh-turnip-trip-calc/static/js/runtime-main.a698f9d6.js.map",
+    "static/css/2.1d63ea88.chunk.css": "/acnh-turnip-trip-calc/static/css/2.1d63ea88.chunk.css",
+    "static/js/2.179a96d9.chunk.js": "/acnh-turnip-trip-calc/static/js/2.179a96d9.chunk.js",
+    "static/js/2.179a96d9.chunk.js.map": "/acnh-turnip-trip-calc/static/js/2.179a96d9.chunk.js.map",
+    "index.html": "/acnh-turnip-trip-calc/index.html",
+    "precache-manifest.1942b927297f590d90e0ba1afc59bac0.js": "/acnh-turnip-trip-calc/precache-manifest.1942b927297f590d90e0ba1afc59bac0.js",
+    "service-worker.js": "/acnh-turnip-trip-calc/service-worker.js",
+    "static/css/2.1d63ea88.chunk.css.map": "/acnh-turnip-trip-calc/static/css/2.1d63ea88.chunk.css.map",
+    "static/css/main.fc298b6e.chunk.css.map": "/acnh-turnip-trip-calc/static/css/main.fc298b6e.chunk.css.map",
+    "static/js/2.179a96d9.chunk.js.LICENSE.txt": "/acnh-turnip-trip-calc/static/js/2.179a96d9.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/acnh-turnip-trip-calc/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8be6fa04.js",
+    "static/js/runtime-main.a698f9d6.js",
     "static/css/2.1d63ea88.chunk.css",
-    "static/js/2.60e7778d.chunk.js",
+    "static/js/2.179a96d9.chunk.js",
     "static/css/main.fc298b6e.chunk.css",
-    "static/js/main.97042bf3.chunk.js"
+    "static/js/main.7ff6c9a1.chunk.js"
   ]
 }
