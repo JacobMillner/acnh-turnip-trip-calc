@@ -35,9 +35,12 @@ function Calculator(props) {
 
     totalTurnipsToBuy = Math.floor(totalBells / curTurnipPrice);
 
-    messages.push("Total Turnips to buy: " + totalTurnipsToBuy);
     messages.push(
-      "Total trips: " + Math.ceil(totalTurnipsToBuy / totalTurnipsPerTrip)
+      "Total Turnips to buy: " + totalTurnipsToBuy.toLocaleString()
+    );
+    messages.push(
+      "Total trips: " +
+        Math.ceil(totalTurnipsToBuy / totalTurnipsPerTrip).toLocaleString()
     );
 
     while (totalBells > totalTurnipsPerTrip * curTurnipPrice) {
@@ -45,9 +48,9 @@ function Calculator(props) {
         trip: curTrip,
         stats:
           "Withdraw " +
-          totalTurnipsPerTrip * curTurnipPrice +
+          (totalTurnipsPerTrip * curTurnipPrice).toLocaleString()  +
           " Bells. Buy " +
-          totalTurnipsPerTrip +
+          totalTurnipsPerTrip.toLocaleString()  +
           " Turnips.",
       });
       curTrip = curTrip + 1;
@@ -59,9 +62,9 @@ function Calculator(props) {
       trip: curTrip,
       stats:
         "Withdraw " +
-        totalBells +
+        totalBells.toLocaleString()  +
         " Bells. Buy " +
-        totalTurnipsToBuy +
+        totalTurnipsToBuy.toLocaleString()  +
         " Turnips.",
     });
 
@@ -76,13 +79,17 @@ function Calculator(props) {
           Turnip prices:{" "}
           <InputNumber
             min={0}
-            value={turnipPrice}
+            value={turnipPrice ? turnipPrice : 0}
             onChange={handleTurnipChange}
           />
         </Form.Item>
         <Form.Item>
           Total Bells:{" "}
-          <InputNumber min={0} value={bells} onChange={handleBellsChange} />
+          <InputNumber
+            min={0}
+            value={bells ? bells : 0}
+            onChange={handleBellsChange}
+          />
         </Form.Item>
         <Form.Item>
           <Button type="primary" onClick={handleCalculate}>
