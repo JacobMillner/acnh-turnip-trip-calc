@@ -6,7 +6,7 @@ import "antd/dist/antd.css";
 import Calculator from "./components/calculator/calculator";
 
 function App() {
-  const { Header, Footer, Sider, Content } = Layout;
+  const { Header, Footer, Content } = Layout;
   return (
     <div className="App">
       <Layout>
