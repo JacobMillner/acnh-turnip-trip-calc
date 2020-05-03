@@ -11,9 +11,17 @@ function App() {
     <div className="App">
       <Layout>
         <Header style={{ background: "#fff", padding: 0 }}>
-          <h1>Animal Crossing New Horizon Turnip Trip Calculator</h1>
+          <div className="title">
+            Animal Crossing New Horizon Turnip Trip Calculator
+          </div>
         </Header>
-        <Content style={{ minHeight: "85vh" }}>
+        <Content
+          className="background"
+          style={{
+            minHeight: "85vh",
+            padding: 10,
+          }}
+        >
           <Calculator />
         </Content>
         <Footer>©Jacob Millner 2020</Footer>

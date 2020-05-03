@@ -1,11 +1,12 @@
 import "./calculator.css";
 import React, { useState } from "react";
-import { InputNumber, Button, Form, message } from "antd";
+import { InputNumber, Button, Form, message, Card, Row } from "antd";
 
 function Calculator(props) {
   const [turnipPrice, setTurnipPrice] = useState(0);
   const [bells, setBells] = useState(0);
   const [results, setResults] = useState();
+  const [trips, setTrips] = useState();
 
   const totalTurnipsPerTrip = 4000; // TODO: allow setting total bag slots
 
@@ -18,12 +19,19 @@ function Calculator(props) {
   };
 
   const handleCalculate = () => {
+    if (bells == 0 || turnipPrice == 0) {
+      message.error(
+        "Input Error: Make sure you enter turnip prices and bells."
+      );
+      return;
+    }
     let totalTrips = 0;
     let totalTurnipsToBuy = 0;
     let totalBells = bells;
     let curTurnipPrice = turnipPrice;
     let curTrip = 1;
     let messages = [];
+    let trips = [];
 
     totalTurnipsToBuy = Math.floor(totalBells / curTurnipPrice);
 
@@ -33,20 +41,32 @@ function Calculator(props) {
     );
 
     while (totalBells > totalTurnipsPerTrip * curTurnipPrice) {
-      messages.push("Trip " + curTrip + ":        ");
-
-      messages.push("Bring Bells: " + totalTurnipsPerTrip * curTurnipPrice);
-      messages.push("Buy Turnips: " + totalTurnipsPerTrip);
+      trips.push({
+        trip: curTrip,
+        stats:
+          "Withdraw " +
+          totalBells +
+          " Bells. Buy " +
+          totalTurnipsToBuy +
+          " Turnips.",
+      });
       curTrip = curTrip + 1;
       totalTurnipsToBuy = totalTurnipsToBuy - totalTurnipsPerTrip;
       totalBells = totalBells - totalTurnipsPerTrip * curTurnipPrice;
     }
 
-    messages.push("Trip " + curTrip + ":");
-    messages.push("Bring Bells:" + totalBells);
-    messages.push("Buy Turnips: " + totalTurnipsToBuy);
+    trips.push({
+      trip: curTrip,
+      stats:
+        "Withdraw " +
+        totalBells +
+        " Bells. Buy " +
+        totalTurnipsToBuy +
+        " Turnips.",
+    });
 
     setResults(messages);
+    setTrips(trips);
   };
 
   return (
@@ -70,9 +90,23 @@ function Calculator(props) {
           </Button>
         </Form.Item>
       </Form>
+      <span></span>
       <div>
         Results:
         <div>{results && results.map((msg) => <div>{msg}</div>)}</div>
+      </div>
+      <div>
+        <Row type="flex" justify="center">
+          {trips &&
+            trips.map((trip) => (
+              <Card
+                title={"Trip: " + trip["trip"]}
+                style={{ width: 300, padding: "10px" }}
+              >
+                {trip["stats"]}
+              </Card>
+            ))}
+        </Row>
       </div>
     </div>
   );
