@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/http;//JacobMillner.github.io/acnh-turnip-trip-calc/static/css/main.fc298b6e.chunk.css",
-    "main.js": "/http;//JacobMillner.github.io/acnh-turnip-trip-calc/static/js/main.46c816bd.chunk.js",
-    "main.js.map": "/http;//JacobMillner.github.io/acnh-turnip-trip-calc/static/js/main.46c816bd.chunk.js.map",
-    "runtime-main.js": "/http;//JacobMillner.github.io/acnh-turnip-trip-calc/static/js/runtime-main.4182c865.js",
-    "runtime-main.js.map": "/http;//JacobMillner.github.io/acnh-turnip-trip-calc/static/js/runtime-main.4182c865.js.map",
-    "static/css/2.1d63ea88.chunk.css": "/http;//JacobMillner.github.io/acnh-turnip-trip-calc/static/css/2.1d63ea88.chunk.css",
-    "static/js/2.895f55e3.chunk.js": "/http;//JacobMillner.github.io/acnh-turnip-trip-calc/static/js/2.895f55e3.chunk.js",
-    "static/js/2.895f55e3.chunk.js.map": "/http;//JacobMillner.github.io/acnh-turnip-trip-calc/static/js/2.895f55e3.chunk.js.map",
-    "index.html": "/http;//JacobMillner.github.io/acnh-turnip-trip-calc/index.html",
-    "precache-manifest.79387fdd97809fab7088ab36d917db03.js": "/http;//JacobMillner.github.io/acnh-turnip-trip-calc/precache-manifest.79387fdd97809fab7088ab36d917db03.js",
-    "service-worker.js": "/http;//JacobMillner.github.io/acnh-turnip-trip-calc/service-worker.js",
-    "static/css/2.1d63ea88.chunk.css.map": "/http;//JacobMillner.github.io/acnh-turnip-trip-calc/static/css/2.1d63ea88.chunk.css.map",
-    "static/css/main.fc298b6e.chunk.css.map": "/http;//JacobMillner.github.io/acnh-turnip-trip-calc/static/css/main.fc298b6e.chunk.css.map",
-    "static/js/2.895f55e3.chunk.js.LICENSE.txt": "/http;//JacobMillner.github.io/acnh-turnip-trip-calc/static/js/2.895f55e3.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/http;//JacobMillner.github.io/acnh-turnip-trip-calc/static/media/logo.5d5d9eef.svg"
+    "main.css": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/static/css/main.fc298b6e.chunk.css",
+    "main.js": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/static/js/main.97042bf3.chunk.js",
+    "main.js.map": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/static/js/main.97042bf3.chunk.js.map",
+    "runtime-main.js": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/static/js/runtime-main.8be6fa04.js",
+    "runtime-main.js.map": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/static/js/runtime-main.8be6fa04.js.map",
+    "static/css/2.1d63ea88.chunk.css": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/static/css/2.1d63ea88.chunk.css",
+    "static/js/2.60e7778d.chunk.js": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/static/js/2.60e7778d.chunk.js",
+    "static/js/2.60e7778d.chunk.js.map": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/static/js/2.60e7778d.chunk.js.map",
+    "index.html": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/index.html",
+    "precache-manifest.821187c6e3f6815c4c522da06b3dd0c9.js": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/precache-manifest.821187c6e3f6815c4c522da06b3dd0c9.js",
+    "service-worker.js": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/service-worker.js",
+    "static/css/2.1d63ea88.chunk.css.map": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/static/css/2.1d63ea88.chunk.css.map",
+    "static/css/main.fc298b6e.chunk.css.map": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/static/css/main.fc298b6e.chunk.css.map",
+    "static/js/2.60e7778d.chunk.js.LICENSE.txt": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/static/js/2.60e7778d.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4182c865.js",
+    "static/js/runtime-main.8be6fa04.js",
     "static/css/2.1d63ea88.chunk.css",
-    "static/js/2.895f55e3.chunk.js",
+    "static/js/2.60e7778d.chunk.js",
     "static/css/main.fc298b6e.chunk.css",
-    "static/js/main.46c816bd.chunk.js"
+    "static/js/main.97042bf3.chunk.js"
   ]
 }

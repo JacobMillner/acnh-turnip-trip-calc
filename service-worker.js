@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/http;//JacobMillner.github.io/acnh-turnip-trip-calc/precache-manifest.79387fdd97809fab7088ab36d917db03.js"
+  "/https;//jacobmillner.github.io/acnh-turnip-trip-calc/precache-manifest.821187c6e3f6815c4c522da06b3dd0c9.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/http;//JacobMillner.github.io/acnh-turnip-trip-calc/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/https;//jacobmillner.github.io/acnh-turnip-trip-calc/index.html"), {
   
   blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
 });
