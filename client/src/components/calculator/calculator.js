@@ -45,9 +45,9 @@ function Calculator(props) {
         trip: curTrip,
         stats:
           "Withdraw " +
-          totalBells +
+          totalTurnipsPerTrip * curTurnipPrice +
           " Bells. Buy " +
-          totalTurnipsToBuy +
+          totalTurnipsPerTrip +
           " Turnips.",
       });
       curTrip = curTrip + 1;
@@ -81,7 +81,7 @@ function Calculator(props) {
           />
         </Form.Item>
         <Form.Item>
-          Total Bells:
+          Total Bells:{" "}
           <InputNumber min={0} value={bells} onChange={handleBellsChange} />
         </Form.Item>
         <Form.Item>
