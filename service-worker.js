@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/acnh-turnip-trip-calc/precache-manifest.5acfab6c16e5de33a94bb4bdb17ada98.js"
+  "/acnh-turnip-trip-calc/precache-manifest.1f902fb02396143ab8af41f46b997aa3.js"
 );
 
 self.addEventListener('message', (event) => {
