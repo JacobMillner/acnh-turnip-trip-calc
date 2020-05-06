@@ -18,6 +18,12 @@ function Calculator(props) {
     setBells(value);
   };
 
+  const formatter = (value) => {
+    // add commas
+    let commafy = parseInt(value).toLocaleString();
+    return commafy;
+  };
+
   const handleCalculate = () => {
     if (bells == 0 || turnipPrice == 0) {
       message.error(
@@ -27,8 +33,8 @@ function Calculator(props) {
     }
     let totalTrips = 0;
     let totalTurnipsToBuy = 0;
-    let totalBells = bells;
-    let curTurnipPrice = turnipPrice;
+    let totalBells = parseInt(bells);
+    let curTurnipPrice = parseInt(turnipPrice);
     let curTrip = 1;
     let messages = [];
     let trips = [];
@@ -48,9 +54,9 @@ function Calculator(props) {
         trip: curTrip,
         stats:
           "Withdraw " +
-          (totalTurnipsPerTrip * curTurnipPrice).toLocaleString()  +
+          (totalTurnipsPerTrip * curTurnipPrice).toLocaleString() +
           " Bells. Buy " +
-          totalTurnipsPerTrip.toLocaleString()  +
+          totalTurnipsPerTrip.toLocaleString() +
           " Turnips.",
       });
       curTrip = curTrip + 1;
@@ -62,9 +68,9 @@ function Calculator(props) {
       trip: curTrip,
       stats:
         "Withdraw " +
-        totalBells.toLocaleString()  +
+        totalBells.toLocaleString() +
         " Bells. Buy " +
-        totalTurnipsToBuy.toLocaleString()  +
+        totalTurnipsToBuy.toLocaleString() +
         " Turnips.",
     });
 
@@ -81,6 +87,7 @@ function Calculator(props) {
             min={0}
             value={turnipPrice ? turnipPrice : 0}
             onChange={handleTurnipChange}
+            formatter={formatter}
           />
         </Form.Item>
         <Form.Item>
@@ -89,6 +96,7 @@ function Calculator(props) {
             min={0}
             value={bells ? bells : 0}
             onChange={handleBellsChange}
+            formatter={formatter}
           />
         </Form.Item>
         <Form.Item>
