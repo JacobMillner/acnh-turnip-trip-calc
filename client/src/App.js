@@ -10,10 +10,8 @@ function App() {
   return (
     <div className="App">
       <Layout>
-        <Header style={{ background: "#fff", padding: 0 }}>
-          <div className="title">
-            Animal Crossing New Horizon Turnip Trip Calculator
-          </div>
+        <Header style={{ padding: 0 }}>
+          <div className="title">Animal Crossing Turnip Trip Calculator</div>
         </Header>
         <Content
           className="background"
@@ -24,7 +22,7 @@ function App() {
         >
           <Calculator />
         </Content>
-        <Footer>©Jacob Millner 2020</Footer>
+        <Footer>Jacob Millner 2020©</Footer>
       </Layout>
     </div>
   );

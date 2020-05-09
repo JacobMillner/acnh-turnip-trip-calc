@@ -20,8 +20,12 @@ function Calculator(props) {
 
   const formatter = (value) => {
     // add commas
-    let commafy = parseInt(value).toLocaleString();
-    return commafy;
+    if (value != null && value != "" && value.length != 0 && !isNaN(value)) {
+      let commafy = parseInt(value).toLocaleString();
+      return commafy;
+    } else {
+      return value;
+    }
   };
 
   const handleCalculate = () => {
@@ -52,12 +56,12 @@ function Calculator(props) {
     while (totalBells > totalTurnipsPerTrip * curTurnipPrice) {
       trips.push({
         trip: curTrip,
-        stats:
-          "Withdraw " +
-          (totalTurnipsPerTrip * curTurnipPrice).toLocaleString() +
-          " Bells. Buy " +
-          totalTurnipsPerTrip.toLocaleString() +
-          " Turnips.",
+        stats: [
+          "Withdraw: " +
+            (totalTurnipsPerTrip * curTurnipPrice).toLocaleString() +
+            " Bells",
+          "Buy: " + totalTurnipsPerTrip.toLocaleString() + " Turnips",
+        ],
       });
       curTrip = curTrip + 1;
       totalTurnipsToBuy = totalTurnipsToBuy - totalTurnipsPerTrip;
@@ -66,12 +70,10 @@ function Calculator(props) {
 
     trips.push({
       trip: curTrip,
-      stats:
-        "Withdraw " +
-        totalBells.toLocaleString() +
-        " Bells. Buy " +
-        totalTurnipsToBuy.toLocaleString() +
-        " Turnips.",
+      stats: [
+        "Withdraw: " + totalBells.toLocaleString() + " Bells",
+        "Buy: " + totalTurnipsToBuy.toLocaleString() + " Turnips",
+      ],
     });
 
     setResults(messages);
@@ -100,7 +102,11 @@ function Calculator(props) {
           />
         </Form.Item>
         <Form.Item>
-          <Button type="primary" onClick={handleCalculate}>
+          <Button
+            type="primary"
+            onClick={handleCalculate}
+            style={{ background: "#795548", borderColor: "#795548" }}
+          >
             Calculate!
           </Button>
         </Form.Item>
@@ -116,9 +122,24 @@ function Calculator(props) {
             trips.map((trip) => (
               <Card
                 title={"Trip: " + trip["trip"]}
-                style={{ width: 300, padding: "10px" }}
+                style={{
+                  width: 300,
+                  padding: "15px",
+                  backgroundColor: "rgba(255, 255, 255, 0.0)",
+                  border: 5,
+                }}
+                headStyle={{
+                  backgroundColor: "#8BC34A",
+                  border: 0,
+                }}
+                bodyStyle={{
+                  backgroundColor: "#DCEDC8",
+                  border: 0,
+                }}
               >
-                {trip["stats"]}
+                {trip["stats"].map((stat) => (
+                  <p>{stat}</p>
+                ))}
               </Card>
             ))}
         </Row>
